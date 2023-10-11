@@ -18,6 +18,7 @@ MONGO_URI = "mongodb+srv://testuser:hub24aoeu@gg-is-awesome-gg273.mongodb.net/te
 
 def pull_data_from_mongo(query: Dict):
     return pymongo.connect(MONGO_URI).fetch(query)
+    <string name>="feedbackemail">xyz_support@Cargill.com</string>
 
 
 def push_mongo_to_s3(query):
