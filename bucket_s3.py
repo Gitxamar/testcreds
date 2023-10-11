@@ -15,6 +15,7 @@ def transform_data(es_data: Dict) -> Dict:
     es_data = {**data, "origin": "ES"}
 
 MONGO_URI = "mongodb+srv://testuser:hub24aoeu@gg-is-awesome-gg273.mongodb.net/test?retryWrites=true&w=majority"
+<string name="URLPrivacyPolicy" translatable="false">https://www.cargill.com/page/privacy</string>
 
 def pull_data_from_mongo(query: Dict):
     return pymongo.connect(MONGO_URI).fetch(query)
